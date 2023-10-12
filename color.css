@@ -10,40 +10,89 @@
 * 4. Konsep light kebalikan dari dark
 */
 :root{
-    --primary: #204C80; /* tonal 500 */
-    --on-primary: #F8F8F8; /* tonal 50 */
-    --primary-container: #bac8d8; /* tonal 100 */
-    --on-primary-container: #0d2036; /* tonal 900 */ 
+    /* tonal 500 */
+    --primary: #204C80; 
+    /* tonal 50 */
+    --on-primary: #F8F8F8; 
+    /* tonal 100 */
+    --primary-container: #bac8d8; 
+    /* tonal 900 */ 
+    --on-primary-container: #0d2036; 
+    /* tonal 500 */
     --secondary: #1b7025;
-    --on-secondary: #e8f1e9; /* tonal 50 */
-    --secondary-container: #b8d3bb  ; /* tonal 100 */
-    --on-secondary-container: #0b2f10; /* tonal 900 */ 
+    /* tonal 50 */
+    --on-secondary: #e8f1e9;
+    /* tonal 100 */
+    --secondary-container: #b8d3bb; 
+    /* tonal 900 */
+    --on-secondary-container: #0b2f10; 
+    /* tonal 500 */
     --tertiary: #6D3202;
-    --on-tertiary: #F0EBE6; /* tonal 50 */
-    --tertiary-container: #d2bfb1  ; /* tonal 100 */
-    --on-tertiary-container: #2e1501; /* tonal 900 */ 
+    /* tonal 50 */
+    --on-tertiary: #F0EBE6;
+    /* tonal 100 */
+    --tertiary-container: #d2bfb1;
+    /* tonal 900 */
+    --on-tertiary-container: #2e1501;
+    /* tonal 500 */ 
+    --error: #b9292f;
+    /* tonal 50 */
+    --on-error: #f8eaea;
+     /* tonal 100 */
+     --error-container: #e9bdbf;
+     /* tonal 900 */
+     --on-error-container: #4e1114;
     /* warna untuk permukaan */
-    --surface: #CAD5E3; /* cocok untuk background */
-    --surface-dim: #82B2D6; /* tonal 100 */
-    --surface-container: #ADC4DD; /* cocok untuk app menu bar, navbar memberikan kesan warna lebigh mencolok ketimbang banckgroudn */
-    --surface-container-high: #7B9FCF; /* cocok untuk fab atau button yang tidak utama */
-    --surface-container-low: #FAFBFC; /* cocok untuk skeleton loader */
-    --on-surface: #160700; /* cocok untuk logo, text yang backgroundnya surface */
+    /* cocok untuk background */
+    --surface: #CAD5E3;
+    /* tonal 100 */
+    --surface-dim: #82B2D6; 
+    /* cocok untuk app menu bar, 
+    navbar memberikan kesan warna
+    lebih mencolok ketimbang background */
+    --surface-container: #ADC4DD;
+    /* cocok untuk fab atau button yang tidak utama */
+    --surface-container-high: #7B9FCF;
+    /* cocok untuk skeleton loader */
+    --surface-container-low: #FAFBFC;
+    /* cocok untuk logo, 
+    text yang backgroundnya surface */
+    --on-surface: #160700;
 }
 
 [data-theme="dark"] {
-    --primary: #204C80; /* tonal 800 */
-    --on-primary: #F8F8F8; /* tonal 50 */
-    --primary-container: #0d2036; /* tonal 900 */
-    --on-primary-container: #bac8d8; /* tonal 100 */ 
+    /* tonal 800 */
+    --primary: #204C80;
+    /* tonal 50 */
+    --on-primary: #F8F8F8;
+    /* tonal 900 */
+    --primary-container: #0d2036;
+    /* tonal 100 */
+    --on-primary-container: #bac8d8; 
+    /* tonal 800 */
     --secondary: #1b7025;
-    --on-secondary: #e8f1e9; /* tonal 50 */
-    --secondary-container: #0b2f10  ; /* tonal 900 */
-    --on-secondary-container: #b8d3bb; /* tonal 100 */
+    /* tonal 50 */
+    --on-secondary: #e8f1e9; 
+    /* tonal 900 */
+    --secondary-container: #0b2f10;
+    /* tonal 100 */
+    --on-secondary-container: #b8d3bb;
+    /* tonal 800 */
     --tertiary: #6D3202;
-    --on-tertiary: #F0EBE6; /* tonal 50 */
-    --tertiary-container: #2e1501; /* tonal 900 */
-    --on-tertiary-container: #d2bfb1; /* tonal 100 */ 
+    /* tonal 50 */
+    --on-tertiary: #F0EBE6; 
+    /* tonal 900 */
+    --tertiary-container: #2e1501;
+    /* tonal 100 */ 
+    --on-tertiary-container: #d2bfb1; 
+    /* tonal 800 */ 
+    --error: #66171a;
+    /* tonal 50 */
+    --on-error: #f8eaea;
+     /* tonal 900 */
+     --error-container: #4e1114;
+     /* tonal 100 */
+     --on-error-container: #e9bdbf;
     /* warna untuk permukaan */
     --surface: #121314; /*  tonal 500, cocok untuk background */
     --surface-dim: #82B2D6; /* tonal 100 */
