@@ -58,6 +58,9 @@
     /* cocok untuk logo, 
     text yang backgroundnya surface */
     --on-surface: #160700;
+    
+    --surface-inverse: var(--on-surface);
+    --on-surface-inverse: var(--surface);
 }
 
 [data-theme="dark"] {
@@ -100,4 +103,7 @@
     --surface-container-high: #283742; /* cocok untuk fab atau button yang tidak utama */
     --surface-container-low: #455A75; /* tonal 50 dari warna surface, cocok untuk skeleton loader */
     --on-surface: #FAFBFC; /* cocok untuk logo, text yang backgroundnya surface */
+
+    --surface-inverse: var(--on-surface);
+    --on-surface-inverse: var(--surface);
 }
