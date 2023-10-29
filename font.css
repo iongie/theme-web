@@ -1,109 +1,116 @@
+
+@font-face {
+    font-family: 'Nunito Sans';
+    font-stretch: 100%;
+    src: url(fonts/Nunito_Sans.woff2) format('woff2');
+}
+
 :root{
     /* display - large */
-    --display-large-font-family-name: Roboto;
+    --display-large-font-family-name: 'Nunito Sans';
     --display-large-font-family-style: Regular;
-    --display-large-font-weight: calc(0,45pt * 400);
-    --display-large-font-size: calc(0,45pt * 57);
-    --display-large-line-height: calc(0,45pt * 64);
-    --display-large-letter-spacing: calc(0,45pt * -0.25);
+    --display-large-font-weight: calc(0.45pt * 400);
+    --display-large-font-size: calc(0.45pt * 57);
+    --display-large-line-height: calc(0.45pt * 64);
+    --display-large-letter-spacing: calc(0.45pt * -0.25);
     /* display - medium */
-    --display-medium-font-family-name: Roboto;
+    --display-medium-font-family-name: 'Nunito Sans';
     --display-medium-font-family-style: Regular;
-    --display-medium-font-weight: calc(0,45pt * 400);
-    --display-medium-font-size: calc(0,45pt * 45);
-    --display-medium-line-height: calc(0,45pt * 52);
+    --display-medium-font-weight: calc(0.45pt * 400);
+    --display-medium-font-size: calc(0.45pt * 45);
+    --display-medium-line-height: calc(0.45pt * 52);
     --display-medium-letter-spacing: 0pt;
     /* display - small */
-    --display-small-font-family-name: Roboto;
+    --display-small-font-family-name: 'Nunito Sans';
     --display-small-font-family-style: Regular;
-    --display-small-font-weight: calc(0,45pt * 400);
-    --display-small-font-size: calc(0,45pt * 36);
-    --display-small-line-height: calc(0,45pt * 44);
+    --display-small-font-weight: calc(0.45pt * 400);
+    --display-small-font-size: calc(0.45pt * 36);
+    --display-small-line-height: calc(0.45pt * 44);
     --display-small-letter-spacing: 0pt;
     /* headline - large */
-    --headline-large-font-family-name: Roboto;
+    --headline-large-font-family-name: 'Nunito Sans';
     --headline-large-font-family-style: Regular;
-    --headline-large-font-weight: calc(0,45pt * 400);
-    --headline-large-font-size: calc(0,45pt * 32);
+    --headline-large-font-weight: calc(0.45pt * 400);
+    --headline-large-font-size: calc(0.45pt * 32);
     --headline-large-line-height: 40pt;
     --headline-large-letter-spacing: 0pt;
     /* headline - medium */
-    --headline-medium-font-family-name: Roboto;
+    --headline-medium-font-family-name: 'Nunito Sans';
     --headline-medium-font-family-style: Regular;
-    --headline-medium-font-weight: calc(0,45pt * 400);
-    --headline-medium-font-size: calc(0,45pt * 28);
-    --headline-medium-line-height: calc(0,45pt * 36);
+    --headline-medium-font-weight: calc(0.45pt * 400);
+    --headline-medium-font-size: calc(0.45pt * 28);
+    --headline-medium-line-height: calc(0.45pt * 36);
     --headline-medium-letter-spacing: 0pt;
     /* headline - small */
-    --headline-small-font-family-name: Roboto;
+    --headline-small-font-family-name: 'Nunito Sans';
     --headline-small-font-family-style: Regular;
-    --headline-small-font-weight: calc(0,45pt * 400);
-    --headline-small-font-size: calc(0,45pt * 24);
-    --headline-small-line-height: calc(0,45pt * 32);
+    --headline-small-font-weight: calc(0.45pt * 400);
+    --headline-small-font-size: calc(0.45pt * 24);
+    --headline-small-line-height: calc(0.45pt * 32);
     --headline-small-letter-spacing: 0pt;
     /* body - large */
-    --body-large-font-family-name: Roboto;
+    --body-large-font-family-name: 'Nunito Sans';
     --body-large-font-family-style: Regular;
-    --body-large-font-weight: calc(0,45pt * 400);
-    --body-large-font-size: calc(0,45pt * 16);
-    --body-large-line-height: calc(0,45pt * 24);
-    --body-large-letter-spacing: calc(0,45pt * 0.5);
+    --body-large-font-weight: calc(0.45pt * 400);
+    --body-large-font-size: calc(0.45pt * 16);
+    --body-large-line-height: calc(0.45pt * 24);
+    --body-large-letter-spacing: calc(0.45pt * 0.5);
     /* body - medium */
-    --body-medium-font-family-name: Roboto;
+    --body-medium-font-family-name: 'Nunito Sans';
     --body-medium-font-family-style: Regular;
-    --body-medium-font-weight: calc(0,45pt * 400);
-    --body-medium-font-size: calc(0,45pt * 14);
-    --body-medium-line-height: calc(0,45pt * 20);
-    --body-medium-letter-spacing: calc(0,45pt * 0.25);
+    --body-medium-font-weight: calc(0.45pt * 400);
+    --body-medium-font-size: calc(0.45pt * 14);
+    --body-medium-line-height: calc(0.45pt * 20);
+    --body-medium-letter-spacing: calc(0.45pt * 0.25);
     /* body - small */
-    --body-small-font-family-name: Roboto;
+    --body-small-font-family-name: 'Nunito Sans';
     --body-small-font-family-style: Regular;
-    --body-small-font-weight: calc(0,45pt * 400);
-    --body-small-font-size: calc(0,45pt * 12);
-    --body-small-line-height: calc(0,45pt * 16);
-    --body-small-letter-spacing: calc(0,45pt * 0.4);
+    --body-small-font-weight: calc(0.45pt * 400);
+    --body-small-font-size: calc(0.45pt * 12);
+    --body-small-line-height: calc(0.45pt * 16);
+    --body-small-letter-spacing: calc(0.45pt * 0.4);
     /* label - large */
-    --label-large-font-family-name: Roboto;
+    --label-large-font-family-name: 'Nunito Sans';
     --label-large-font-family-style: Medium;
-    --label-large-font-weight: calc(0,45pt * 500);
-    --label-large-font-size: calc(0,45pt * 14);
-    --label-large-line-height: calc(0,45pt * 20);
-    --label-large-letter-spacing: calc(0,45pt * 0.1);
+    --label-large-font-weight: calc(0.45pt * 500);
+    --label-large-font-size: calc(0.45pt * 14);
+    --label-large-line-height: calc(0.45pt * 20);
+    --label-large-letter-spacing: calc(0.45pt * 0.1);
     /* label - medium */
-    --label-medium-font-family-name: Roboto;
+    --label-medium-font-family-name: 'Nunito Sans';
     --label-medium-font-family-style: Medium;
-    --label-medium-font-weight: calc(0,45pt * 500);
-    --label-medium-font-size: calc(0,45pt * 12);
-    --label-medium-line-height: calc(0,45pt * 16);
-    --label-medium-letter-spacing: calc(0,45pt * 0.5);
+    --label-medium-font-weight: calc(0.45pt * 500);
+    --label-medium-font-size: calc(0.45pt * 12);
+    --label-medium-line-height: calc(0.45pt * 16);
+    --label-medium-letter-spacing: calc(0.45pt * 0.5);
     /* label - small */
-    --label-small-font-family-name: Roboto;
+    --label-small-font-family-name: 'Nunito Sans';
     --label-small-font-family-style: Medium;
-    --label-small-font-weight: calc(0,45pt * 500);
-    --label-small-font-size: calc(0,45pt * 11);
-    --label-small-line-height: calc(0,45pt * 16);
-    --label-small-letter-spacing: calc(0,45pt * 0.5);
+    --label-small-font-weight: calc(0.45pt * 500);
+    --label-small-font-size: calc(0.45pt * 11);
+    --label-small-line-height: calc(0.45pt * 16);
+    --label-small-letter-spacing: calc(0.45pt * 0.5);
     /* title - large */
-    --title-large-font-family-name: Roboto;
+    --title-large-font-family-name: 'Nunito Sans';
     --title-large-font-family-style: Regular;
-    --title-large-font-weight: calc(0,45pt * 400);
-    --title-large-font-size: calc(0,45pt * 22);
-    --title-large-line-height: calc(0,45pt * 28);
+    --title-large-font-weight: calc(0.45pt * 400);
+    --title-large-font-size: calc(0.45pt * 22);
+    --title-large-line-height: calc(0.45pt * 28);
     --title-large-letter-spacing: 0pt;
     /* title - medium */
-    --title-medium-font-family-name: Roboto;
+    --title-medium-font-family-name: 'Nunito Sans';
     --title-medium-font-family-style: Medium;
-    --title-medium-font-weight: calc(0,45pt * 500);
-    --title-medium-font-size: calc(0,45pt * 16);
-    --title-medium-line-height: calc(0,45pt * 24);
-    --title-medium-letter-spacing: calc(0,45pt * 0.15);
+    --title-medium-font-weight: calc(0.45pt * 500);
+    --title-medium-font-size: calc(0.45pt * 16);
+    --title-medium-line-height: calc(0.45pt * 24);
+    --title-medium-letter-spacing: calc(0.45pt * 0.15);
     /* title - small */
-    --title-small-font-family-name: Roboto;
+    --title-small-font-family-name: 'Nunito Sans';
     --title-small-font-family-style: Medium;
-    --title-small-font-weight: calc(0,45pt * 500);
-    --title-small-font-size: calc(0,45pt * 14);
-    --title-small-line-height: calc(0,45pt * 20);
-    --title-small-letter-spacing: calc(0,45pt * 0.1);
+    --title-small-font-weight: calc(0.45pt * 500);
+    --title-small-font-size: calc(0.45pt * 14);
+    --title-small-line-height: calc(0.45pt * 20);
+    --title-small-letter-spacing: calc(0.45pt * 0.1);
 }
 
 .display-large {
@@ -112,9 +119,7 @@
     font-weight: var(--display-large-font-weight);
     font-size: var(--display-large-font-size);
     letter-spacing: var(--display-large-letter-spacing );
-    line-height: var(--display-large-height);
-    text-transform: var(--display-large-text-transform);
-    text-decoration: var(--display-large-text-decoration);
+    line-height: var(--display-large-line-height);
 }
 
 .display-medium {
@@ -123,9 +128,7 @@
     font-weight: var(--display-medium-font-weight);
     font-size: var(--display-medium-font-size);
     letter-spacing: var(--display-medium-letter-spacing);
-    line-height: var(--display-medium-height);
-    text-transform: var(--display-medium-text-transform);
-    text-decoration: var(--display-medium-text-decoration);
+    line-height: var(--display-medium-line-height);
 }
 
 .display-small {
@@ -134,9 +137,7 @@
     font-weight: var(--display-small-font-weight);
     font-size: var(--display-small-font-size);
     letter-spacing: var(--display-small-letter-spacing);
-    line-height: var(--display-small-height);
-    text-transform: var(--display-small-text-transform);
-    text-decoration: var(--display-small-text-decoration);
+    line-height: var(--display-small-line-height);
 }
 
 .headline-large {
@@ -145,9 +146,7 @@
     font-weight: var(--headline-large-font-weight);
     font-size: var(--headline-large-font-size);
     letter-spacing: var(--headline-large-letter-spacing);
-    line-height: var(--headline-large-height);
-    text-transform: var(--headline-large-text-transform);
-    text-decoration: var(--headline-large-text-decoration);
+    line-height: var(--headline-large-line-height);
 }
 
 .headline-medium {
@@ -156,9 +155,7 @@
     font-weight: var(--headline-medium-font-weight);
     font-size: var(--headline-medium-font-size);
     letter-spacing: var(--headline-medium-letter-spacing);
-    line-height: var(--headline-medium-height);
-    text-transform: var(--headline-medium-text-transform);
-    text-decoration: var(--headline-medium-text-decoration);
+    line-height: var(--headline-medium-line-height);
 }
 
 .headline-small {
@@ -167,9 +164,7 @@
     font-weight: var(--headline-small-font-weight);
     font-size: var(--headline-small-font-size);
     letter-spacing: var(--headline-small-letter-spacing);
-    line-height: var(--headline-small-height);
-    text-transform: var(--headline-small-text-transform);
-    text-decoration: var(--headline-small-text-decoration);
+    line-height: var(--headline-small-line-height);
 }
 
 .body-large {
@@ -178,9 +173,7 @@
     font-weight: var(--body-large-font-weight);
     font-size: var(--body-large-font-size);
     letter-spacing: var(--body-large-letter-spacing);
-    line-height: var(--body-large-height);
-    text-transform: var(--body-large-text-transform);
-    text-decoration: var(--body-large-text-decoration);
+    line-height: var(--body-large-line-height);
 }
 
 .body-medium {
@@ -189,9 +182,7 @@
     font-weight: var(--body-medium-font-weight);
     font-size: var(--body-medium-font-size);
     letter-spacing: var(--body-medium-letter-spacing);
-    line-height: var(--body-medium-height);
-    text-transform: var(--body-medium-text-transform);
-    text-decoration: var(--body-medium-text-decoration);
+    line-height: var(--body-medium-line-height);
 }
 
 .body-small {
@@ -200,9 +191,7 @@
     font-weight: var(--body-small-font-weight);
     font-size: var(--body-small-font-size);
     letter-spacing: var(--body-small-tracking);
-    line-height: var(--body-small-height);
-    text-transform: var(--body-small-text-transform);
-    text-decoration: var(--body-small-text-decoration);
+    line-height: var(--body-small-line-height);
 }
 
 .label-large {
@@ -211,9 +200,7 @@
     font-weight: var(--label-large-font-weight);
     font-size: var(--label-large-font-size);
     letter-spacing: var(--label-large-tracking);
-    line-height: var(--label-large-height);
-    text-transform: var(--label-large-text-transform);
-    text-decoration: var(--label-large-text-decoration);
+    line-height: var(--label-large-line-height);
 }
 
 .label-medium {
@@ -222,9 +209,7 @@
     font-weight: var(--label-medium-font-weight);
     font-size: var(--label-medium-font-size);
     letter-spacing: var(--label-medium-letter-spacing);
-    line-height: var(--label-medium-height);
-    text-transform: var(--label-medium-text-transform);
-    text-decoration: var(--label-medium-text-decoration);
+    line-height: var(--label-medium-line-height);
 }
 
 .label-small {
@@ -233,9 +218,7 @@
     font-weight: var(--label-small-font-weight);
     font-size: var(--label-small-font-size);
     letter-spacing: var(--label-small-letter-spacing);
-    line-height: var(--label-small-height);
-    text-transform: var(--label-small-text-transform);
-    text-decoration: var(--label-small-text-decoration);
+    line-height: var(--label-small-line-height);
 }
 
 .title-large {
@@ -244,9 +227,7 @@
     font-weight: var(--title-large-font-weight);
     font-size: var(--title-large-font-size);
     letter-spacing: var(--title-large-letter-spacing);
-    line-height: var(--title-large-height);
-    text-transform: var(--title-large-text-transform);
-    text-decoration: var(--title-large-text-decoration);
+    line-height: var(--title-large-line-height);
 }
 
 .title-medium {
@@ -255,9 +236,7 @@
     font-weight: var(--title-medium-font-weight);
     font-size: var(--title-medium-font-size);
     letter-spacing: var(--title-medium-letter-spacing);
-    line-height: var(--title-medium-height);
-    text-transform: var(--title-medium-text-transform);
-    text-decoration: var(--title-medium-text-decoration);
+    line-height: var(--title-medium-line-height);
 }
 
 .title-small {
@@ -266,7 +245,5 @@
     font-weight: var(--title-small-font-weight);
     font-size: var(--title-small-font-size);
     letter-spacing: var(--title-small-letter-spacing);
-    line-height: var(--title-small-height);
-    text-transform: var(--title-small-text-transform);
-    text-decoration: var(--title-small-text-decoration);
+    line-height: var(--title-small-line-height);
 }
